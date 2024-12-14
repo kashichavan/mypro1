@@ -25,6 +25,4 @@ urlpatterns = [
     path('',home),
     path('login/',login)
 ]
-
-if settings.DEBUG:
-    urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+urlpatterns+= static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
