@@ -128,6 +128,6 @@ STATICFILES_DIRS=[BASE_DIR/'static']
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # Directory where static files will be collected
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 CORS_ALLOW_ALL_ORIGINS = True
